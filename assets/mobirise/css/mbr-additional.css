@@ -1382,6 +1382,37 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #085104;
+  color: #ffffff;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
+  border-top-color: #085104;
+  border-bottom-color: #085104;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  color: #ffffff !important;
+  background-color: #085104 !important;
+  box-shadow: none!important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #ffffff !important;
+  background: #232323 !important;
+  box-shadow: none !important;
+}
 .cid-r2Bc5bPcDn .navbar {
   background: #085104;
   transition: none;
@@ -1782,46 +1813,6 @@ body {
 }
 .cid-r2BahPZRMo P {
   color: #eee796;
-}
-.cid-rfq60Z2y5e {
-  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
-}
-.cid-rfq60Z2y5e h1 {
-  color: #616161;
-}
-.cid-rfq60Z2y5e h2,
-.cid-rfq60Z2y5e h3,
-.cid-rfq60Z2y5e p {
-  color: #767676;
-}
-.cid-rfq60Z2y5e .mbr-section-subtitle {
-  font-style: italic;
-}
-.cid-rfq60Z2y5e H1 {
-  color: #085104;
-}
-.cid-rfq60Z2y5e H3 {
-  color: #232323;
-}
-.cid-rfq6IpUDO4 {
-  background-image: url("../../../assets/images/img-20180713-123004-1861x1328.jpg");
-}
-.cid-rfq6IpUDO4 h1 {
-  color: #616161;
-}
-.cid-rfq6IpUDO4 h2,
-.cid-rfq6IpUDO4 h3,
-.cid-rfq6IpUDO4 p {
-  color: #767676;
-}
-.cid-rfq6IpUDO4 .mbr-section-subtitle {
-  font-style: italic;
-}
-.cid-rfq6IpUDO4 H1 {
-  color: #085104;
-}
-.cid-rfq6IpUDO4 H3 {
-  color: #232323;
 }
 .cid-r2LXbISNj3 .navbar {
   background: #085104;
@@ -3924,6 +3915,9 @@ body {
 }
 .cid-rfYCXFMu8w P {
   color: #232323;
+}
+.cid-rfYCXFMu8w H3 {
+  color: #085104;
 }
 .cid-r2LN1A8ylV .navbar {
   background: #085104;
